@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Recognition</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        #video-container {
+            margin: 20px 0;
+        }
+        video {
+            border: 2px solid #333;
+            width: 640px;
+            height: 480px;
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Face Recognition System</h1>
+    <div id="video-container">
+        <video id="video" autoplay></video>
+    </div>
+    <div id="result">Recognized Face: None</div>
+
+    <script>
+        const video = document.getElementById('video');
+
+        // Access the device camera and stream to video element
+        navigator.mediaDevices.getUserMedia({ video: true })
+            .then(stream => {
+                video.srcObject = stream;
+            })
+            .catch(err => {
+                console.error("Error accessing the camera: ", err);
+            });
+
+        // Placeholder for face recognition logic
+        // This will be implemented in the main application
+    </script>
+</body>
+</html>
