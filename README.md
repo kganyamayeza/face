@@ -1,9 +1,9 @@
 # Face Recognition Python Project
 
-This project implements a facial recognition system using OpenCV. It captures video from a camera, detects faces, and recognizes them based on a trained model. The project is structured into several modules for better organization and maintainability.Created by kganya Mayeza. Here is the link 
+This project implements a facial recognition system using OpenCV. It captures video from a camera, detects faces, and recognizes them based on a trained model. The project is structured into several modules for better organization and maintainability.Created by kganya Mayeza. 
 
 
-https://1drv.ms/u/c/51a726de0978ac99/EXHfNvaXK4VKsj9SufBJDaMBeP7ixsje_yETPG5q4rk8nA?e=idKbR3
+
 
 ## Project Structure
 
